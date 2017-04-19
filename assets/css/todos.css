@@ -47,6 +47,7 @@ span {
 	text-align: center;
 	color: white;
 	width: 0;
+	cursor: pointer;
 	display: inline-block;
 	transition: 0.2s linear;
 	-webkit-transition: 0.2s linear;
@@ -63,6 +64,10 @@ ul {
 li:hover span {
 	width: 40px;
 	opacity: 1.0;
+}
+
+h1 .fa {
+	cursor: pointer;
 }
 
 .trash {
